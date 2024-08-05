@@ -7,6 +7,59 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="6*"/>
+        </Grid.RowDefinitions>
+        <Border Grid.Row="0" Background="#FEFEFE"/>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="4*"/>
+            </Grid.RowDefinitions>
+            <Border Grid.Row="0" Grid.Column="0" Background="#219AFD" Margin="10"/>
+            <Border Grid.Row="0" Grid.Column="1" Background="#60B71F" Margin="10"/>
+            <Border Grid.Row="0" Grid.Column="2" Background="#FFA000" Margin="10"/>
+            <Border Grid.Row="0" Grid.Column="3" Background="#2DABB6" Margin="10"/>
+            <Border Grid.Row="0" Grid.Column="4" Background="#DB7269" Margin="10"/>
+
+            <Grid Grid.Row="1" Grid.ColumnSpan ="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Border Grid.Row="0" Background="#DAA6A1" Margin="10" Grid.ColumnSpan="2"/>
+                <Border Grid.Row="1" Grid.Column="0" Background="#F3F2CD" Margin="10" />
+                <Border Grid.Row="1" Grid.Column="1" Background="#F3F2CD" Margin="10" />
+                <Border Grid.Row="2" Grid.Column="0" Background="#F3F2CD" Margin="10" />
+                <Border Grid.Row="2" Grid.Column="1" Background="#F3F2CD" Margin="10" />
+            </Grid>
+            
+            <Grid Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="3">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="3*"/>
+                    <RowDefinition Height="2*"/>
+                </Grid.RowDefinitions>
+                <Border Grid.Column="0" Grid.Row ="0"  Background="#27B6FF" Margin="10"/>
+                <Border Grid.Column="1" Grid.Row="0" Background="#EF4A23" Margin="10"/>
+                <Border Grid.Row="1" Grid.ColumnSpan="2" Background="#B21F24" Margin="10"/>
+            </Grid>
+        </Grid>
     </Grid>
 </Window>
