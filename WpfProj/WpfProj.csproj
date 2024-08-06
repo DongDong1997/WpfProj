@@ -75,9 +75,37 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ArrangeWin.xaml.cs">
+      <DependentUpon>ArrangeWin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BindingWin.xaml.cs">
+      <DependentUpon>BindingWin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ControlWin.xaml.cs">
+      <DependentUpon>ControlWin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataWin.xaml.cs">
+      <DependentUpon>DataWin.xaml</DependentUpon>
+    </Compile>
     <Compile Include="StyleWin.xaml.cs">
       <DependentUpon>StyleWin.xaml</DependentUpon>
     </Compile>
+    <Page Include="ArrangeWin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BindingWin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ControlWin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DataWin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
